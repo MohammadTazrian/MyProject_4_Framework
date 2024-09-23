@@ -1,0 +1,5 @@
+com\util\BaseConfig.class
+com\pagefactory\MasterPageFactory.class
+com\generic\BaseLogin.class
+com\util\Highlighter.class
+com\util\Screenshot.class
