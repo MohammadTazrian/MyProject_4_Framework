@@ -26,6 +26,27 @@ public class MasterPageFactory {
 	@FindBy(xpath = "//*[contains(text(),'Logout')]")
 	private WebElement logut_btn;
 
+	@FindBy(xpath = "//*[@id='confirmBox']")
+	private WebElement alertBtn2;
+
+	@FindBy(xpath = "(//*[@aria-label='Services'])[1]")
+	private WebElement services;
+	
+	@FindBy(xpath = "//*[@id='oldSelectMenu']")
+	private WebElement dropdown3;
+
+	public WebElement getDropdown3() {
+		return dropdown3;
+	}
+
+	public WebElement getServices() {
+		return services;
+	}
+
+	public WebElement getAlertBtn2() {
+		return alertBtn2;
+	}
+
 	public WebElement getEmail() {
 		return email;
 	}
